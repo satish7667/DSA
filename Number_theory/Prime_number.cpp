@@ -10,7 +10,7 @@ bool isPrime(int n) {
         if (n % i == 0 || n % (i + 2) == 0)
             return false;
     }
-    return false;
+    return true;
 }
 
 int main() {
